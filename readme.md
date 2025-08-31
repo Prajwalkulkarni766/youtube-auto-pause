@@ -15,6 +15,16 @@
 
 ---
 
+## Preview
+
+### Light Mode  
+![Light Mode](preview/light-mode.png)
+
+### Dark Mode  
+![Dark Mode](preview/dark-mode.png)
+
+---
+
 ## Installation
 
 ### Chrome
@@ -76,6 +86,3 @@ MIT License © Prajwal Kulkarni
 ## Contact
 
 For feedback or issues, please open an issue on the GitHub repository.
-
----
-
