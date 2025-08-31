@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Auto Pause/Play on Tab Switch",
+  "version": "1.0",
+  "description": "Automatically pauses/resumes YouTube videos when switching tabs. Toggle it on or off.",
+  "permissions": ["storage", "scripting"],
+  "host_permissions": ["*://www.youtube.com/*"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
